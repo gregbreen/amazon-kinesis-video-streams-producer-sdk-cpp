@@ -375,5 +375,5 @@ jobs:
       - name: Build repository
         run: |
           mkdir build && cd build
-          cmake .. -DBUILD_GSTREAMER_PLUGIN=ON -DBUILD_STATIC=ON
+          cmake .. -DBUILD_GSTREAMER_PLUGIN=TRUE -DBUILD_STATIC=TRUE
           make

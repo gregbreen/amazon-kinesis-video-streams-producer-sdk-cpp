@@ -376,4 +376,4 @@ jobs:
         run: |
           mkdir build && cd build
           cmake .. -DBUILD_GSTREAMER_PLUGIN=TRUE -DBUILD_STATIC=TRUE
-          make
+          make VERBOSE=1

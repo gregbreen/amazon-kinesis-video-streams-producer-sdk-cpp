@@ -5,6 +5,7 @@ on:
     branches:
       - develop
       - master
+      - playground
   pull_request:
     branches:
       - develop
